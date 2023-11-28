@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+<div class="main">
+    <h1>My Pictures</h1>
+    <hr>
+    <h2>Portofolio</h2>
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">Show all</button>
+    <button class="btn" onclick="filterSelection('cats')">My Pet</button>
+    <button class="btn" onclick="filterSelection('Hobby')">My Hobbies</button>
+    <button class="btn" onclick="filterSelection('Food')">Favourite Food</button>
+</div>
+<div class="row">
+    <div class="colum cats">
+        <div class="content">
+            <img src="cats.jpg" alt="cats" style="width: 100%;">
+            <h4>Cats</h4>
+            <p>This is my cats</p>
+        </div>
+    </div>
+    <div class="column cats">
+        <div class="content">
+            <img src="cats2.jpg" alt="Cats 2" style="width: 100%;">
+            <h4>Cats</h4>
+            <p>this is Mia</p>
+        </div>
+    </div>
+    <div class="column Hobby">
+        <div class="content">
+            <img src="futsal.jpg" alt="futsal" style="width: 100%;">
+            <h4>futsal</h4>
+            <p>this is one of my Hobbies</p>
+        </div>
+    </div>
+    <div class="column Hobby">
+        <div class="content">
+            <img src="badminton.jpg" alt="badminton" style="width: 100%;">
+            <h4>badminton</h4>
+            <p>this is my second Hobby</p>
+        </div>
+    </div>
+    <div class="column Food">
+        <div class="content">
+            <img src="steak.jpg" alt="steak" style="width: 100%;">
+            <h4>steak</h4>
+            <p>This is one of My favourite Food</p>
+        </div>
+    </div>
+    <div class="column Food">
+        <div class="content">
+            <img src="pasta.jpg" alt="pasta" style="width: 100%;">
+            <h4>pasta</h4>
+            <p>This is my second Favourite Food</p>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
